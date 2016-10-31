@@ -1,0 +1,22 @@
+{
+    "name": "liufengjun/wcg",
+    "description": "liufengjun test composer package lib",
+    "type": "lib",
+    "require": {
+        "hguenot/yii2-gftp": "2.1.3",
+        "hguenot/yii2-gsftp": "V1.1.1"
+    },
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "liufengjun",
+            "email": "liufengjun@wangcaigu.com"
+        }
+    ],
+    "minimum-stability": "stable",
+	"autoload": {
+        "psr-4": {
+            "Wcg\\": "lib/"
+        }
+    }
+}
